@@ -66,9 +66,14 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
         FFRoute(
           name: 'configuracion',
           path: '/configuracion',
+          builder: (context, params) => ConfiguracionWidget(),
+        ),
+        FFRoute(
+          name: 'perfil',
+          path: '/perfil',
           builder: (context, params) => params.isEmpty
-              ? NavBarPage(initialPage: 'configuracion')
-              : ConfiguracionWidget(),
+              ? NavBarPage(initialPage: 'perfil')
+              : PerfilWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );

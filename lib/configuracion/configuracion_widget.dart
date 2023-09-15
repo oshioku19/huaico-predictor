@@ -119,8 +119,7 @@ class _ConfiguracionWidgetState extends State<ConfiguracionWidget>
                             child: CachedNetworkImage(
                               fadeInDuration: Duration(milliseconds: 500),
                               fadeOutDuration: Duration(milliseconds: 500),
-                              imageUrl:
-                                  'https://images.unsplash.com/photo-1489980557514-251d61e3eeb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fHByb2ZpbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60',
+                              imageUrl: '',
                               width: 100.0,
                               height: 100.0,
                               fit: BoxFit.cover,
@@ -186,7 +185,7 @@ class _ConfiguracionWidgetState extends State<ConfiguracionWidget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                         child: Text(
-                          'Edit Profile',
+                          'Editar perfil',
                           style: FlutterFlowTheme.of(context).labelLarge,
                         ),
                       ),
@@ -237,7 +236,7 @@ class _ConfiguracionWidgetState extends State<ConfiguracionWidget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                         child: Text(
-                          'Notification Settings',
+                          'configuracion de notificaciones',
                           style: FlutterFlowTheme.of(context).labelLarge,
                         ),
                       ),
@@ -254,13 +253,6 @@ class _ConfiguracionWidgetState extends State<ConfiguracionWidget>
                     ],
                   ),
                 ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(24.0, 16.0, 0.0, 0.0),
-              child: Text(
-                'App Settings',
-                style: FlutterFlowTheme.of(context).labelMedium,
               ),
             ),
             Padding(
@@ -295,58 +287,7 @@ class _ConfiguracionWidgetState extends State<ConfiguracionWidget>
                         padding:
                             EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
                         child: Text(
-                          'Support',
-                          style: FlutterFlowTheme.of(context).labelLarge,
-                        ),
-                      ),
-                      Expanded(
-                        child: Align(
-                          alignment: AlignmentDirectional(0.90, 0.00),
-                          child: Icon(
-                            Icons.arrow_forward_ios,
-                            color: FlutterFlowTheme.of(context).secondaryText,
-                            size: 18.0,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
-              ),
-            ),
-            Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(16.0, 12.0, 16.0, 0.0),
-              child: Container(
-                width: double.infinity,
-                height: 60.0,
-                decoration: BoxDecoration(
-                  color: FlutterFlowTheme.of(context).secondaryBackground,
-                  boxShadow: [
-                    BoxShadow(
-                      blurRadius: 3.0,
-                      color: Color(0x33000000),
-                      offset: Offset(0.0, 1.0),
-                    )
-                  ],
-                  borderRadius: BorderRadius.circular(8.0),
-                  shape: BoxShape.rectangle,
-                ),
-                child: Padding(
-                  padding:
-                      EdgeInsetsDirectional.fromSTEB(12.0, 12.0, 12.0, 12.0),
-                  child: Row(
-                    mainAxisSize: MainAxisSize.max,
-                    children: [
-                      Icon(
-                        Icons.privacy_tip_rounded,
-                        color: FlutterFlowTheme.of(context).secondaryText,
-                        size: 24.0,
-                      ),
-                      Padding(
-                        padding:
-                            EdgeInsetsDirectional.fromSTEB(12.0, 0.0, 0.0, 0.0),
-                        child: Text(
-                          'Terms of Service',
+                          'Ayuda',
                           style: FlutterFlowTheme.of(context).labelLarge,
                         ),
                       ),

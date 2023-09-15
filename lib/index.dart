@@ -5,3 +5,4 @@ export '/visualizar_variables/visualizar_variables_widget.dart'
 export '/historial_variables/historial_variables_widget.dart'
     show HistorialVariablesWidget;
 export '/configuracion/configuracion_widget.dart' show ConfiguracionWidget;
+export '/perfil/perfil_widget.dart' show PerfilWidget;

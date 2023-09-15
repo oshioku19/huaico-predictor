@@ -106,7 +106,7 @@ class _NavBarPageState extends State<NavBarPage> {
       'HomePage': HomePageWidget(),
       'visualizar_variables': VisualizarVariablesWidget(),
       'historial_variables': HistorialVariablesWidget(),
-      'configuracion': ConfiguracionWidget(),
+      'perfil': PerfilWidget(),
     };
     final currentIndex = tabs.keys.toList().indexOf(_currentPageName);
 
@@ -166,7 +166,7 @@ class _NavBarPageState extends State<NavBarPage> {
               Icons.account_circle,
               size: 24.0,
             ),
-            label: 'Home',
+            label: '.',
             tooltip: '',
           )
         ],
